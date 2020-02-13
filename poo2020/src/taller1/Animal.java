@@ -87,5 +87,4 @@ public class Animal {
     public void actualizar_habitat(String habitat){
         this.habitat = habitat;
     }
-
 }

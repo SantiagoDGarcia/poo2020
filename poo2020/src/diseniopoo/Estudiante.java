@@ -62,6 +62,4 @@ public class Estudiante {
     public void setNota_2_bim(Double nota_2_bim) {
         this.nota_2_bim = nota_2_bim;
     }
-
-
 }

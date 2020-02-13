@@ -60,4 +60,3 @@ public class Tiempo {
         this.segundo = segundo;
     }
 }
-

@@ -1,6 +1,6 @@
 package taller1;
 
-public class Estudiante{
+public class Estudiante {
     //definicion de atributos globales
     private int edad;
     private int promedio;
@@ -119,5 +119,4 @@ public class Estudiante{
     public void actualizar_genero(String genero){
         this.genero = genero;
     }
-
 }

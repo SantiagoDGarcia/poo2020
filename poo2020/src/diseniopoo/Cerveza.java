@@ -60,7 +60,4 @@ public class Cerveza {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-
-
-
 }

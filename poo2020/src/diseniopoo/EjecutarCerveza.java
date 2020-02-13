@@ -1,5 +1,4 @@
 package diseniopoo;
-
 import java.util.Scanner;
 
 public class EjecutarCerveza {
@@ -16,6 +15,7 @@ public class EjecutarCerveza {
 
         Cerveza cerveza = new Cerveza(unidades, precio,tipo,nombre);
         cerveza.ficha();
+
 
         //cerveza.ficha();
 

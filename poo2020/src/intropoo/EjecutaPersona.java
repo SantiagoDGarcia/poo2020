@@ -1,6 +1,6 @@
 package intropoo;
 
-public class EjecutaPersona{
+public class EjecutaPersona {
     public static void main(String [] args){
         // Creacion de Objeto
 

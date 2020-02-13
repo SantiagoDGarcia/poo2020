@@ -1,7 +1,5 @@
 package diseniopoo;
-
 import java.util.Scanner;
-
 public class EjecutarEstudiante {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
@@ -18,5 +16,6 @@ public class EjecutarEstudiante {
         Estudiante estudiante = new Estudiante(nro_cedula, nomb,nota_1_bim,nota_2_bim);
 
         estudiante.presentar();
+
     }
 }
