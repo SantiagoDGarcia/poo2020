@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f7406f1-de61-4cec-8e46-78ffc793734d" name="Default Changelist" comment="" />
+    <list default="true" id="6f7406f1-de61-4cec-8e46-78ffc793734d" name="Default Changelist" comment="clase 14">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deber_seleccion/EjecutarEstudiante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deber_seleccion/Estudiante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/disenio_repeticion/EjecutarEmpleadoDOWHILE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/disenio_repeticion/EjecutarEmpleadoFOR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/disenio_repeticion/EjecutarEmpleadoWHILE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/disenio_repeticion/Empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/taller_repeticion/CajeroAutomatico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/taller_repeticion/EjecutaCajeroAutomatico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/taller_repeticion/EjecutarFactorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/taller_repeticion/EjecutarNumDiv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/taller_repeticion/EjecutarNumMulti.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/taller_repeticion/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/taller_repeticion/NumDiv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/taller_repeticion/NumMulti.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +32,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1XiKgW3fmeiOzrGPWZNejczZj77" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,18 +44,24 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/poo2020/poo2020" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.EjecutarDia">
-    <configuration name="EjecutarDia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diseino_seleccion.EjecutarDia" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="disenio_repeticion" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.EjecutarNumDiv">
+    <configuration name="EjecutaCajeroAutomatico" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="taller_repeticion.EjecutaCajeroAutomatico" />
       <module name="poo2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diseino_seleccion.*" />
+          <option name="PATTERN" value="taller_repeticion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -41,12 +69,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjecutarEmpleado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diseino_seleccion.EjecutarEmpleado" />
+    <configuration name="EjecutarEmpleadoFOR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="disenio_repeticion.EjecutarEmpleadoFOR" />
       <module name="poo2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diseino_seleccion.*" />
+          <option name="PATTERN" value="disenio_repeticion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjecutarFactorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="taller_repeticion.EjecutarFactorial" />
+      <module name="poo2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="taller_repeticion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjecutarNumDiv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="taller_repeticion.EjecutarNumDiv" />
+      <module name="poo2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="taller_repeticion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjecutarNumMulti" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="taller_repeticion.EjecutarNumMulti" />
+      <module name="poo2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="taller_repeticion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -56,8 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EjecutarDia" />
-        <item itemvalue="Application.EjecutarEmpleado" />
+        <item itemvalue="Application.EjecutarNumDiv" />
+        <item itemvalue="Application.EjecutaCajeroAutomatico" />
+        <item itemvalue="Application.EjecutarFactorial" />
+        <item itemvalue="Application.EjecutarNumMulti" />
+        <item itemvalue="Application.EjecutarEmpleadoFOR" />
       </list>
     </recent_temporary>
   </component>
@@ -74,38 +144,61 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="clase 14" />
+    <option name="LAST_COMMIT_MESSAGE" value="clase 14" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="275" y="26" key="#Project_Structure" timestamp="1581523596338">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="26" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1581523596338" />
-    <state x="387" y="41" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1581525949090">
+    <state x="387" y="41" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1581697935644">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="387" y="41" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1366.728@0.0.1366.728" timestamp="1581525949090" />
+    <state x="387" y="41" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1366.728@0.0.1366.728" timestamp="1581697935644" />
+    <state x="343" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581698861641">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="343" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1581698861641" />
+    <state x="339" y="0" key="CommitChangelistDialog2" timestamp="1581702325004">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581702325004" />
     <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1581523665951">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581523665951" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1581526786068">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1581702359266">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581526786068" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1581526786068">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581702359266" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1581702359266">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581526786068" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1581526786068">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581702359266" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1581702359266">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581526786068" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1581526786068">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581702359266" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1581702359266">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581526786068" />
-    <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1581523589966">
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581702359266" />
+    <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1581698814519">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="391" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1581523589966" />
+    <state x="391" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1581698814519" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/disenio_repeticion/EjecutarEmpleadoDOWHILE.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
