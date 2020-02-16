@@ -17,7 +17,7 @@ public class Estudiante {
         this.calif4 = calif4;
     }
 
-    public Double calcularProm(double calif1, double calif2, double calif3, double calif4, double promedio){
+    public Double calcularProm(double calif1, double calif2, double calif3, double calif4){
         promedio = (calif1+calif2+calif3+calif4)/4;
         return promedio;
     }
@@ -33,7 +33,7 @@ public class Estudiante {
     public void presentar(){
         System.out.println(" __________________________________________________________");
         System.out.println("|ESTUDIANTE:     "+nombreAlum );
-        System.out.println("|PROMEDIO:     "+calcularProm(calif1,calif2,calif3,calif4,promedio));
+        System.out.println("|PROMEDIO:     "+calcularProm(calif1,calif2,calif3,calif4));
         System.out.println("|ESTADO ACADÉMICO:      "+ calcularObservacion(promedio, observacion));
         System.out.println(" ___________________________________________________________");
     }

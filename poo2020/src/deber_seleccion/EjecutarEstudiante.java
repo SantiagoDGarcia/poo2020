@@ -15,8 +15,7 @@ public class EjecutarEstudiante {
         double calif3 = teclado.nextDouble();
         System.out.println("Ingrese calificacion 4: ");
         double calif4 = teclado.nextDouble();
-
-
+        
         Estudiante estudiante = new Estudiante(nombreAlum,calif1,calif2,calif3,calif4);
         estudiante.presentar();
 
