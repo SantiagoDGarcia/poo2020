@@ -14,5 +14,6 @@ public class EjecutarMediaDesviacion {
         }
         MediaDesviacion mediaDesviacion = new MediaDesviacion(numeros);
         mediaDesviacion.presentar();
+
     }
 }
