@@ -4,7 +4,8 @@ public class Convertidor{
     private int numero;
     private int[] conversion = new int[6];
 
-    public Convertidor(int numero) {
+
+    public Convertidor(int numero){
         this.numero = numero;
     }
 
@@ -12,13 +13,13 @@ public class Convertidor{
 
         int count = 5;
         for (int i = 0; i < 6 ; i++) {
-            getConversion()[count] = (int)((getNumero() /Math.pow(10,i))%10);
+            conversion[count] = (int)((numero/Math.pow(10,i))%10);
             count--;
         }
         int suma = 0;
         count = 5;
         for (int i = 0; i < 6; i++) {
-            suma += (getConversion()[i] * Math.pow(2, count));
+            suma += (conversion[i] * Math.pow(2, count));
             count--;
         }
         return suma;
@@ -31,7 +32,6 @@ public class Convertidor{
         System.out.println(" __________________________________________________________");
 
     }
-
     public int getNumero() {
         return numero;
     }
@@ -47,6 +47,7 @@ public class Convertidor{
     public void setConversion(int[] conversion) {
         this.conversion = conversion;
     }
+
 }
 
 
