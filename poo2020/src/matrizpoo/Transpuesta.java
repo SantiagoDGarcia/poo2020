@@ -5,9 +5,7 @@ public class Transpuesta {
     private int columnas ;
     private int matrizA[][] ;
 
-    /**
-     * Metodo para sumar dos matrices en una tercera matriz
-     */
+
     public int[][] calcularTranspuesta(){
         int matrizT[][] = new int[columnas][filas];
         for(int i = 0; i< filas; i++){

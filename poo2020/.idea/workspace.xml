@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f7406f1-de61-4cec-8e46-78ffc793734d" name="Default Changelist" comment="Subida 15">
-      <change afterPath="$PROJECT_DIR$/src/matricespoo/EjecutarMatriz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/matricespoo/Matriz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/matrizpoo/EjecutarMatriz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/matrizpoo/EjecutarTranspuesta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/matrizpoo/Matriz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/matrizpoo/Transpuesta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/poo2020/arreglosdeberpoo/Convertidor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/arreglosdeberpoo/Convertidor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/poo2020/arreglospoo/EjecutarMediaDesviacion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/arreglospoo/EjecutarMediaDesviacion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arreglospoo/EjecutarMediaDesviacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arreglospoo/EjecutarMediaDesviacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/poo2020/matrizpoo/EjecutarMatriz.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/matrizpoo/EjecutarMatriz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/poo2020/matrizpoo/Matriz.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/matrizpoo/Matriz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/matrizpoo/EjecutarMatriz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/matrizpoo/EjecutarMatriz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/matrizpoo/Transpuesta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/matrizpoo/Transpuesta.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +48,7 @@
       <recent name="C:\Users\Sant Garcia\Documents\Orientada a Objetos\poo2020\src\deber_seleccion" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjecutarTranspuesta">
+  <component name="RunManager" selected="Application.EjecutarMatriz (1)">
     <configuration name="EjecutarConvertidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arreglosdeberpoo.EjecutarConvertidor" />
       <module name="poo2020" />
@@ -121,8 +116,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EjecutarTranspuesta" />
         <item itemvalue="Application.EjecutarMatriz (1)" />
+        <item itemvalue="Application.EjecutarTranspuesta" />
         <item itemvalue="Application.EjecutarMediaDesviacion" />
         <item itemvalue="Application.EjecutarMatriz" />
         <item itemvalue="Application.EjecutarConvertidor" />
@@ -176,22 +171,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582300776167" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1582305946965">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1582306361278">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582305946965" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1582305946965">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582306361278" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1582306361278">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582305946965" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1582305946965">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582306361278" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1582306361278">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582305946965" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1582305946965">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582306361278" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1582306361278">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582305946965" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582306361278" />
     <state x="186" y="9" key="SettingsEditor" timestamp="1581820500902">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

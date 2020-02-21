@@ -21,7 +21,6 @@ public class EjecutarMatriz{
             }
         }
 
-
         Matriz matriz = new Matriz(fil, col, matrizA);
         matriz.presentar();
     }
