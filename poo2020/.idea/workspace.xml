@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f7406f1-de61-4cec-8e46-78ffc793734d" name="Default Changelist" comment="Subida 15">
-      <change afterPath="$PROJECT_DIR$/src/arreglospoo/Arreglo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arreglospoo/EjecutarMediaDesviacion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arreglospoo/EjecutarTercerArreglo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arreglospoo/MediaDesviacion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arreglospoo/TercerArreglo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arreglosdeberpoo/Convertidor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arreglosdeberpoo/DatosPersona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arreglosdeberpoo/EjecutarConvertidor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arreglosdeberpoo/EjecutarDatosPersona.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/poo2020/META-INF/poo2020.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/poo2020/deber_seleccion/EjecutarEmpleado.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/deber_seleccion/EjecutarEmpleado.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/poo2020/deber_seleccion/Empleado.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/deber_seleccion/Empleado.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deber_seleccion/EjecutarEmpleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deber_seleccion/EjecutarEmpleado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deber_seleccion/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deber_seleccion/Empleado.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +48,7 @@
       <recent name="C:\Users\Sant Garcia\Documents\Orientada a Objetos\poo2020\src\deber_seleccion" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjecutarTercerArreglo">
+  <component name="RunManager" selected="Application.EjecutarConvertidor">
     <configuration name="EjecutarArreglo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arreglospoo.EjecutarArreglo" />
       <module name="poo2020" />
@@ -68,38 +62,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EjecutarConvertidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arreglosdeberpoo.EjecutarConvertidor" />
+      <module name="poo2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arreglosdeberpoo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjecutarDatosPersona" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arreglosdeberpoo.EjecutarDatosPersona" />
+      <module name="poo2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arreglosdeberpoo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EjecutarMediaDesviacion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arreglospoo.EjecutarMediaDesviacion" />
       <module name="poo2020" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="arreglospoo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EjecutarNumMayor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="deber_seleccion.EjecutarNumMayor" />
-      <module name="poo2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="deber_seleccion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EjecutarNumMulti" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="taller_repeticion.EjecutarNumMulti" />
-      <module name="poo2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="taller_repeticion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjecutarConvertidor" />
+        <item itemvalue="Application.EjecutarDatosPersona" />
         <item itemvalue="Application.EjecutarTercerArreglo" />
         <item itemvalue="Application.EjecutarMediaDesviacion" />
         <item itemvalue="Application.EjecutarArreglo" />
-        <item itemvalue="Application.EjecutarNumMulti" />
-        <item itemvalue="Application.EjecutarNumMayor" />
       </list>
     </recent_temporary>
   </component>
@@ -157,10 +151,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1581819795808" />
-    <state x="387" y="41" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1582214026986">
+    <state x="387" y="41" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1582283338673">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="387" y="41" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1366.728@0.0.1366.728" timestamp="1582214026986" />
+    <state x="387" y="41" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1366.728@0.0.1366.728" timestamp="1582283338673" />
     <state x="343" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581698861641">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -177,22 +171,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581523665951" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1582214421238">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1582283634305">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582214421238" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1582214421238">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582283634305" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1582283634305">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582214421238" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1582214421238">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582283634305" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1582283634305">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582214421238" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1582214421238">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582283634305" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1582283634305">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582214421238" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582283634305" />
     <state x="186" y="9" key="SettingsEditor" timestamp="1581820500902">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -205,10 +199,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="494" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1581818436535" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1582208348210">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1582282502883">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1582208348210" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1582282502883" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
