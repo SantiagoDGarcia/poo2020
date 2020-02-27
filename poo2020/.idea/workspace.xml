@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f7406f1-de61-4cec-8e46-78ffc793734d" name="Default Changelist" comment="Subida 15">
-      <change afterPath="$PROJECT_DIR$/src/herencia/Administrativo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/herencia/Docente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/herencia/EjecutarPersonal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/herencia/Estudiante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/herencia/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/herencia_empleado/EjecutarEmpleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/herencia_empleado/Empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/herencia_empleado/EmpleadoAsalariado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/herencia_empleado/EmpleadoPorHoras.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/poo2020/matrizpoo/Transpuesta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/matrizpoo/Transpuesta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/poo2020/herencia/EjecutarPersonal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/herencia/EjecutarPersonal.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +25,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1XiKgW3fmeiOzrGPWZNejczZj77" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -51,13 +52,13 @@
       <recent name="C:\Users\Sant Garcia\Documents\Orientada a Objetos\poo2020\src\deber_seleccion" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjecutarPersonal">
-    <configuration name="EjecutarMatriz (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="matrizpoo.EjecutarMatriz" />
+  <component name="RunManager" selected="Application.EjecutarEmpleado">
+    <configuration name="EjecutarEmpleado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="herencia_empleado.EjecutarEmpleado" />
       <module name="poo2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="matrizpoo.*" />
+          <option name="PATTERN" value="herencia_empleado.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjecutarMatriz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="matricespoo.EjecutarMatriz" />
+    <configuration name="EjecutarMatriz (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="matrizpoo.EjecutarMatriz" />
       <module name="poo2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="matricespoo.*" />
+          <option name="PATTERN" value="matrizpoo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjecutarEmpleado" />
         <item itemvalue="Application.EjecutarPersonal" />
         <item itemvalue="Application.EjecutarMatriz (1)" />
         <item itemvalue="Application.EjecutarTranspuesta" />
         <item itemvalue="Application.EjecutarMediaDesviacion" />
-        <item itemvalue="Application.EjecutarMatriz" />
       </list>
     </recent_temporary>
   </component>
@@ -154,10 +155,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1581819795808" />
-    <state x="387" y="41" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1582812088806">
+    <state x="387" y="41" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1582820518134">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="387" y="41" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1366.728@0.0.1366.728" timestamp="1582812088806" />
+    <state x="387" y="41" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1366.728@0.0.1366.728" timestamp="1582820518134" />
     <state x="343" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581698861641">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -174,22 +175,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582300776167" />
-    <state width="1323" height="152" key="GridCell.Tab.0.bottom" timestamp="1582817083785">
+    <state width="1323" height="152" key="GridCell.Tab.0.bottom" timestamp="1582821311881">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="152" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582817083785" />
-    <state width="1323" height="152" key="GridCell.Tab.0.center" timestamp="1582817083785">
+    <state width="1323" height="152" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582821311881" />
+    <state width="1323" height="152" key="GridCell.Tab.0.center" timestamp="1582821311881">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="152" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582817083785" />
-    <state width="1323" height="152" key="GridCell.Tab.0.left" timestamp="1582817083785">
+    <state width="1323" height="152" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582821311881" />
+    <state width="1323" height="152" key="GridCell.Tab.0.left" timestamp="1582821311881">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="152" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582817083785" />
-    <state width="1323" height="152" key="GridCell.Tab.0.right" timestamp="1582817083785">
+    <state width="1323" height="152" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582821311881" />
+    <state width="1323" height="152" key="GridCell.Tab.0.right" timestamp="1582821311881">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="152" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582817083785" />
+    <state width="1323" height="152" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582821311881" />
     <state x="186" y="9" key="SettingsEditor" timestamp="1581820500902">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -202,10 +203,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="494" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1581818436535" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1582817332067">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1582820594327">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1582817332067" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1582820594327" />
     <state x="405" y="276" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1582304061596">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
