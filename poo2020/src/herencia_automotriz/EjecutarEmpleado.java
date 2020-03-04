@@ -37,7 +37,7 @@ public class EjecutarEmpleado {
                 cargo = teclado.nextLine();
                 System.out.println("Ingrese la Dependencia a la que pertenece:");
                 dependencia = teclado.nextLine();
-                System.out.println("Ingrese el salario mensual del enmpleado:");
+                System.out.println("Ingrese el salario mensual del empleado:");
                 sueldo_mensual = teclado.nextDouble();
                 System.out.println("_________________________________________________");
 
