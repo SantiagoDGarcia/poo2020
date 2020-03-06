@@ -2,20 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f7406f1-de61-4cec-8e46-78ffc793734d" name="Default Changelist" comment="Subida 15">
-      <change afterPath="$PROJECT_DIR$/src/poliformismo_figura/Circulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poliformismo_figura/Cuadrado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poliformismo_figura/EjecutarFigura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poliformismo_figura/Figura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poliformismo_figura/Rectangulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poliformismo_figura/Triangulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poliformismopoo/EjecutarEmpleado12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poliformismopoo/Empleado12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poliformismopoo/EmpleadoAsalariado2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poliformismopoo/EmpleadoPorHoras2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poliformismo_deudores/ClienteDeudor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poliformismo_deudores/EjecutarClienteDeudor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poliformismo_deudores/PrestamoAuto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poliformismo_deudores/PrestamoHipotecario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poliformismo_deudores/PrestamoPersonal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/polimorfismo_automotriz/EjecutarEmpleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/polimorfismo_automotriz/EmpAdmvo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/polimorfismo_automotriz/EmpMecanico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/polimorfismo_automotriz/EmpVendedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/polimorfismo_automotriz/Empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/polimorfismo_inversionistas/CuentaAhorro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/polimorfismo_inversionistas/CuentaMaestra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/polimorfismo_inversionistas/EjecutarInversionista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/polimorfismo_inversionistas/Inversionista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/polimorfismo_inversionistas/Pagare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/polimorfismo_volumen/Cilindro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/polimorfismo_volumen/Cono.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/polimorfismo_volumen/Cubo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/polimorfismo_volumen/EjecutarFigura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/polimorfismo_volumen/Esfera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/polimorfismo_volumen/Figura.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/poo2020/herencia_automotriz/EjecutarEmpleado.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/herencia_automotriz/EjecutarEmpleado.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/poo2020/herencia_automotriz/EmpMecanico.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/herencia_automotriz/EmpMecanico.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/herencia_automotriz/EjecutarEmpleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/herencia_automotriz/EjecutarEmpleado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/poo2020/poliformismo_figura/Circulo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/poliformismo_figura/Circulo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/poo2020/poliformismo_figura/Cuadrado.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/poliformismo_figura/Cuadrado.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/poo2020/poliformismo_figura/Rectangulo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/poliformismo_figura/Rectangulo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/poo2020/poliformismo_figura/Triangulo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/poliformismo_figura/Triangulo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +56,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Matriz.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/polimorfismo_automotriz" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -53,23 +65,25 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="poliformismo_deudores" />
+      <recent name="polimorfismo_inversionistas" />
+      <recent name="polimorfismo_volumen" />
       <recent name="poliformismo_figura" />
       <recent name="poliformismopoo" />
-      <recent name="herencia_automotriz" />
-      <recent name="herencia_volumen" />
-      <recent name="herencia_figura" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sant Garcia\Documents\poo2020\poo2020\src\polimorfismo_automotriz" />
+      <recent name="C:\Users\Sant Garcia\Documents\poo2020\poo2020\src\polimorfismo_volumen" />
       <recent name="C:\Users\Sant Garcia\Documents\Orientada a Objetos\poo2020\src\deber_seleccion" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjecutarFigura (2)">
-    <configuration name="EjecutarEmpleado (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="herencia_automotriz.EjecutarEmpleado" />
+  <component name="RunManager" selected="Application.EjecutarClienteDeudor">
+    <configuration name="EjecutarClienteDeudor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poliformismo_deudores.EjecutarClienteDeudor" />
       <module name="poo2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="herencia_automotriz.*" />
+          <option name="PATTERN" value="poliformismo_deudores.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,25 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjecutarEmpleado12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poliformismopoo.EjecutarEmpleado12" />
+    <configuration name="EjecutarEmpleado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="polimorfismo_automotriz.EjecutarEmpleado" />
       <module name="poo2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poliformismopoo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EjecutarFigura (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="herencia_volumen.EjecutarFigura" />
-      <module name="poo2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="herencia_volumen.*" />
+          <option name="PATTERN" value="polimorfismo_automotriz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +117,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjecutarFigura" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="herencia_figura.EjecutarFigura" />
+    <configuration name="EjecutarFigura (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="polimorfismo_volumen.EjecutarFigura" />
       <module name="poo2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="herencia_figura.*" />
+          <option name="PATTERN" value="polimorfismo_volumen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjecutarInversionista" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="polimorfismo_inversionistas.EjecutarInversionista" />
+      <module name="poo2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="polimorfismo_inversionistas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjecutarClienteDeudor" />
+        <item itemvalue="Application.EjecutarInversionista" />
+        <item itemvalue="Application.EjecutarEmpleado" />
+        <item itemvalue="Application.EjecutarFigura (3)" />
         <item itemvalue="Application.EjecutarFigura (2)" />
-        <item itemvalue="Application.EjecutarEmpleado12" />
-        <item itemvalue="Application.EjecutarEmpleado (1)" />
-        <item itemvalue="Application.EjecutarFigura (1)" />
-        <item itemvalue="Application.EjecutarFigura" />
       </list>
     </recent_temporary>
   </component>
@@ -166,14 +180,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1581819795808" />
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1583337944636">
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1583472501319">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1583337944636" />
-    <state x="387" y="41" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1583336445841">
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1583472501319" />
+    <state x="387" y="41" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1583426361388">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="387" y="41" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1366.728@0.0.1366.728" timestamp="1583336445841" />
+    <state x="387" y="41" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1366.728@0.0.1366.728" timestamp="1583426361388" />
     <state x="479" y="249" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582903870983">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -194,30 +208,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582300776167" />
-    <state width="1323" height="242" key="GridCell.Tab.0.bottom" timestamp="1583338010272">
+    <state width="1323" height="242" key="GridCell.Tab.0.bottom" timestamp="1583472188341">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="242" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583338010272" />
-    <state width="1323" height="242" key="GridCell.Tab.0.center" timestamp="1583338010272">
+    <state width="1323" height="242" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583472188341" />
+    <state width="1323" height="242" key="GridCell.Tab.0.center" timestamp="1583472188341">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="242" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583338010272" />
-    <state width="1323" height="242" key="GridCell.Tab.0.left" timestamp="1583338010272">
+    <state width="1323" height="242" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583472188341" />
+    <state width="1323" height="242" key="GridCell.Tab.0.left" timestamp="1583472188341">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="242" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583338010272" />
-    <state width="1323" height="242" key="GridCell.Tab.0.right" timestamp="1583338010272">
+    <state width="1323" height="242" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583472188341" />
+    <state width="1323" height="242" key="GridCell.Tab.0.right" timestamp="1583472188341">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="242" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583338010272" />
+    <state width="1323" height="242" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583472188341" />
     <state x="186" y="9" key="SettingsEditor" timestamp="1581820500902">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581820500902" />
-    <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1583331002626">
+    <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1583414838658">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="391" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583331002626" />
+    <state x="391" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583414838658" />
     <state x="494" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581818436535">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
