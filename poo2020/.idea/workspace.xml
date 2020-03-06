@@ -2,9 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f7406f1-de61-4cec-8e46-78ffc793734d" name="Default Changelist" comment="Subida 15">
+      <change afterPath="$PROJECT_DIR$/src/datos_tipo_objeto/EjecutarEstudiante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datos_tipo_objeto/EjemploLista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datos_tipo_objeto/Estudiante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datos_tipo_objeto/ListaEstudiante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datos_tipo_objeto/ListaVehiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datos_tipo_objeto/Nombre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datos_tipo_objeto/Vehiculo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polimorfismo_automotriz/EmpMecanico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polimorfismo_automotriz/EmpMecanico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polimorfismo_automotriz/EmpVendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polimorfismo_automotriz/EmpVendedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/poo2020/poliformismo_deudores/ClienteDeudor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/poliformismo_deudores/ClienteDeudor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/poo2020/poliformismo_deudores/EjecutarClienteDeudor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/poliformismo_deudores/EjecutarClienteDeudor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/poo2020/poliformismo_deudores/PrestamoPersonal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/poliformismo_deudores/PrestamoPersonal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/poo2020/polimorfismo_automotriz/EmpMecanico.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/polimorfismo_automotriz/EmpMecanico.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/poo2020/polimorfismo_automotriz/EmpVendedor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/polimorfismo_automotriz/EmpVendedor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/poo2020/polimorfismo_inversionistas/CuentaAhorro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/polimorfismo_inversionistas/CuentaAhorro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/poo2020/polimorfismo_inversionistas/CuentaMaestra.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/polimorfismo_inversionistas/CuentaMaestra.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/poo2020/polimorfismo_inversionistas/EjecutarInversionista.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/polimorfismo_inversionistas/EjecutarInversionista.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/poo2020/polimorfismo_inversionistas/Inversionista.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/polimorfismo_inversionistas/Inversionista.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/poo2020/polimorfismo_inversionistas/Pagare.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/polimorfismo_inversionistas/Pagare.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,11 +57,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="datos_tipo_objeto" />
       <recent name="poliformismo_deudores" />
       <recent name="polimorfismo_inversionistas" />
       <recent name="polimorfismo_volumen" />
       <recent name="poliformismo_figura" />
-      <recent name="poliformismopoo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Sant Garcia\Documents\poo2020\poo2020\src\polimorfismo_automotriz" />
@@ -54,13 +69,13 @@
       <recent name="C:\Users\Sant Garcia\Documents\Orientada a Objetos\poo2020\src\deber_seleccion" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjecutarClienteDeudor">
-    <configuration name="EjecutarClienteDeudor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poliformismo_deudores.EjecutarClienteDeudor" />
+  <component name="RunManager" selected="Application.ListaEstudiante">
+    <configuration name="EjecutarEstudiante" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datos_tipo_objeto.EjecutarEstudiante" />
       <module name="poo2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poliformismo_deudores.*" />
+          <option name="PATTERN" value="datos_tipo_objeto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjecutarEmpleado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="polimorfismo_automotriz.EjecutarEmpleado" />
+    <configuration name="EjemploLista" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datos_tipo_objeto.EjemploLista" />
       <module name="poo2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="polimorfismo_automotriz.*" />
+          <option name="PATTERN" value="datos_tipo_objeto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjecutarFigura (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poliformismo_figura.EjecutarFigura" />
+    <configuration name="ListaEstudiante" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datos_tipo_objeto.ListaEstudiante" />
       <module name="poo2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poliformismo_figura.*" />
+          <option name="PATTERN" value="datos_tipo_objeto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjecutarFigura (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="polimorfismo_volumen.EjecutarFigura" />
+    <configuration name="ListaVehiculo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datos_tipo_objeto.ListaVehiculo" />
       <module name="poo2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="polimorfismo_volumen.*" />
+          <option name="PATTERN" value="datos_tipo_objeto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjecutarInversionista" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="polimorfismo_inversionistas.EjecutarInversionista" />
+    <configuration name="Nombre" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datos_tipo_objeto.Nombre" />
       <module name="poo2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="polimorfismo_inversionistas.*" />
+          <option name="PATTERN" value="datos_tipo_objeto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EjecutarClienteDeudor" />
-        <item itemvalue="Application.EjecutarInversionista" />
-        <item itemvalue="Application.EjecutarEmpleado" />
-        <item itemvalue="Application.EjecutarFigura (3)" />
-        <item itemvalue="Application.EjecutarFigura (2)" />
+        <item itemvalue="Application.ListaEstudiante" />
+        <item itemvalue="Application.ListaVehiculo" />
+        <item itemvalue="Application.EjemploLista" />
+        <item itemvalue="Application.Nombre" />
+        <item itemvalue="Application.EjecutarEstudiante" />
       </list>
     </recent_temporary>
   </component>
@@ -157,14 +172,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1581819795808" />
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1583472501319">
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1583512870161">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1583472501319" />
-    <state x="387" y="41" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1583426361388">
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1583512870161" />
+    <state x="387" y="41" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1583510918396">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="387" y="41" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1366.728@0.0.1366.728" timestamp="1583426361388" />
+    <state x="387" y="41" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1366.728@0.0.1366.728" timestamp="1583510918396" />
     <state x="479" y="249" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582903870983">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -185,22 +200,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582300776167" />
-    <state width="1323" height="242" key="GridCell.Tab.0.bottom" timestamp="1583472188341">
+    <state width="1323" height="242" key="GridCell.Tab.0.bottom" timestamp="1583513217063">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="242" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583472188341" />
-    <state width="1323" height="242" key="GridCell.Tab.0.center" timestamp="1583472188341">
+    <state width="1323" height="242" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583513217063" />
+    <state width="1323" height="242" key="GridCell.Tab.0.center" timestamp="1583513217063">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="242" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583472188341" />
-    <state width="1323" height="242" key="GridCell.Tab.0.left" timestamp="1583472188341">
+    <state width="1323" height="242" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583513217063" />
+    <state width="1323" height="242" key="GridCell.Tab.0.left" timestamp="1583513217063">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="242" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583472188341" />
-    <state width="1323" height="242" key="GridCell.Tab.0.right" timestamp="1583472188341">
+    <state width="1323" height="242" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583513217063" />
+    <state width="1323" height="242" key="GridCell.Tab.0.right" timestamp="1583513217063">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="242" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583472188341" />
+    <state width="1323" height="242" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583513217063" />
     <state x="186" y="9" key="SettingsEditor" timestamp="1581820500902">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
