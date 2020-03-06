@@ -1,8 +1,8 @@
 package polimorfismo_automotriz;
 
 public class EmpMecanico extends Empleado{
-    protected double costo_trab;
-    protected int cant_trab;
+    private double costo_trab;
+    private int cant_trab;
 
     public double getCosto_trab() {
         return costo_trab;

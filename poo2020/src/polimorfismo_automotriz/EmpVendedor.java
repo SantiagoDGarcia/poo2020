@@ -1,8 +1,8 @@
 package polimorfismo_automotriz;
 
 public class EmpVendedor extends Empleado{
-    protected double sueld_min;
-    protected int cant_vent;
+    private double sueld_min;
+    private int cant_vent;
 
     public double getSueld_min() {
         return sueld_min;
