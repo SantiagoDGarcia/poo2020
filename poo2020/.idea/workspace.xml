@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f7406f1-de61-4cec-8e46-78ffc793734d" name="Default Changelist" comment="Subida 15">
-      <change afterPath="$PROJECT_DIR$/src/datos_tipo_objeto/EjecutarEstudiante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datos_tipo_objeto/EjemploLista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datos_tipo_objeto/Estudiante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datos_tipo_objeto/ListaEstudiante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datos_tipo_objeto/ListaVehiculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datos_tipo_objeto/Nombre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datos_tipo_objeto/Vehiculo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/poo2020/poliformismo_deudores/ClienteDeudor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/poliformismo_deudores/ClienteDeudor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/poo2020/poliformismo_deudores/EjecutarClienteDeudor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/poliformismo_deudores/EjecutarClienteDeudor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/poo2020/poliformismo_deudores/PrestamoPersonal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/poliformismo_deudores/PrestamoPersonal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/poo2020/polimorfismo_automotriz/EmpMecanico.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/polimorfismo_automotriz/EmpMecanico.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/poo2020/polimorfismo_automotriz/EmpVendedor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/polimorfismo_automotriz/EmpVendedor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/poo2020/polimorfismo_inversionistas/CuentaAhorro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/polimorfismo_inversionistas/CuentaAhorro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/poo2020/polimorfismo_inversionistas/CuentaMaestra.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/polimorfismo_inversionistas/CuentaMaestra.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/poo2020/polimorfismo_inversionistas/EjecutarInversionista.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/polimorfismo_inversionistas/EjecutarInversionista.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/poo2020/polimorfismo_inversionistas/Inversionista.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/polimorfismo_inversionistas/Inversionista.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/poo2020/polimorfismo_inversionistas/Pagare.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poo2020/polimorfismo_inversionistas/Pagare.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,18 +203,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581820500902" />
-    <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1583414838658">
+    <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1584629377729">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="391" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583414838658" />
+    <state x="391" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584629377729" />
     <state x="494" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581818436535">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="494" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1581818436535" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1582907145431">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1584485242011">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1582907145431" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1584485242011" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1582897924471">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
