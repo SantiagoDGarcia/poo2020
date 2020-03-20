@@ -39,8 +39,6 @@ public class Comprado extends Producto{
         this.detalle = detalle;
         this.stock = stock;
         this.precio = precio;
-        this.detalle = detalle;
-        
     }
     
     
