@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.List;
 import static jdk.nashorn.internal.objects.NativeString.toUpperCase;
 
-public class ProgramaV17 extends javax.swing.JFrame {
+public class ProgramaV20 extends javax.swing.JFrame {
     // Variables de todos los objetos
     String nombre;
     int cantidad; 
@@ -23,14 +23,17 @@ public class ProgramaV17 extends javax.swing.JFrame {
     public static List <Comprado> listaCompras = new ArrayList<Comprado>();
     // Variables 
     int seleccion;
+    String index;
     // Programa 
-    public ProgramaV17() {
+    public ProgramaV20() {
         initComponents();
         // Al iniciar el programa
         menuObservarBase.setVisible(true);
         menuObservar.setVisible(false);
         menuObservar2.setVisible(false);
         miniMenuCantidadComprar.setVisible(false);
+        inforRemover.setVisible(false);
+        bRemover.setVisible(false);
     }
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
@@ -102,6 +105,14 @@ public class ProgramaV17 extends javax.swing.JFrame {
         icon4 = new javax.swing.JLabel();
         subIngresados3 = new javax.swing.JLabel();
         removerProducto = new javax.swing.JPanel();
+        txtRemover = new javax.swing.JTextField();
+        jLabel1 = new javax.swing.JLabel();
+        bRemover = new javax.swing.JButton();
+        buscarProducto1 = new javax.swing.JButton();
+        jScrollPane9 = new javax.swing.JScrollPane();
+        MostrarListaR = new javax.swing.JList<>();
+        inforRemover = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
         menuObservar2 = new javax.swing.JPanel();
         panelVender = new javax.swing.JTabbedPane();
         buscar = new javax.swing.JPanel();
@@ -138,7 +149,7 @@ public class ProgramaV17 extends javax.swing.JFrame {
         base.setBackground(new java.awt.Color(255, 255, 255));
 
         titulo.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        titulo.setForeground(new java.awt.Color(51, 51, 255));
+        titulo.setForeground(new java.awt.Color(102, 102, 102));
         titulo.setText("Punto De Venta de Productos");
 
         menuOpciones.setBackground(new java.awt.Color(255, 255, 255));
@@ -229,11 +240,6 @@ public class ProgramaV17 extends javax.swing.JFrame {
 
         listaPeso.setBackground(new java.awt.Color(255, 255, 255));
         listaPeso.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "g", "kg", "ml", "L" }));
-        listaPeso.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                listaPesoActionPerformed(evt);
-            }
-        });
 
         subtituloC.setText("Lista de Comestibles Ingresados");
 
@@ -598,15 +604,82 @@ public class ProgramaV17 extends javax.swing.JFrame {
 
         removerProducto.setBackground(new java.awt.Color(255, 255, 255));
 
+        jLabel1.setText("Introduce el nombre del producto");
+
+        bRemover.setText("Eliminar Producto");
+        bRemover.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bRemoverActionPerformed(evt);
+            }
+        });
+
+        buscarProducto1.setBackground(new java.awt.Color(255, 255, 255));
+        buscarProducto1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/pngocean.com.png"))); // NOI18N
+        buscarProducto1.setText("Buscar");
+        buscarProducto1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                buscarProducto1ActionPerformed(evt);
+            }
+        });
+
+        MostrarListaR.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                MostrarListaRMouseClicked(evt);
+            }
+        });
+        jScrollPane9.setViewportView(MostrarListaR);
+
+        jLabel3.setText("Selecciona el producto a eliminar");
+
         javax.swing.GroupLayout removerProductoLayout = new javax.swing.GroupLayout(removerProducto);
         removerProducto.setLayout(removerProductoLayout);
         removerProductoLayout.setHorizontalGroup(
             removerProductoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 697, Short.MAX_VALUE)
+            .addGroup(removerProductoLayout.createSequentialGroup()
+                .addGroup(removerProductoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(removerProductoLayout.createSequentialGroup()
+                        .addGap(87, 87, 87)
+                        .addGroup(removerProductoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(inforRemover, javax.swing.GroupLayout.PREFERRED_SIZE, 433, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel3)))
+                    .addGroup(removerProductoLayout.createSequentialGroup()
+                        .addGroup(removerProductoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                            .addGroup(removerProductoLayout.createSequentialGroup()
+                                .addContainerGap()
+                                .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 328, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(12, 12, 12))
+                            .addGroup(removerProductoLayout.createSequentialGroup()
+                                .addGap(87, 87, 87)
+                                .addGroup(removerProductoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 328, Short.MAX_VALUE)
+                                    .addComponent(txtRemover))))
+                        .addGroup(removerProductoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(removerProductoLayout.createSequentialGroup()
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(buscarProducto1))
+                            .addGroup(removerProductoLayout.createSequentialGroup()
+                                .addGap(58, 58, 58)
+                                .addComponent(bRemover)))))
+                .addContainerGap(89, Short.MAX_VALUE))
         );
         removerProductoLayout.setVerticalGroup(
             removerProductoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 362, Short.MAX_VALUE)
+            .addGroup(removerProductoLayout.createSequentialGroup()
+                .addGap(31, 31, 31)
+                .addComponent(jLabel1)
+                .addGap(12, 12, 12)
+                .addGroup(removerProductoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtRemover, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(buscarProducto1))
+                .addGap(18, 18, 18)
+                .addComponent(jLabel3)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 17, Short.MAX_VALUE)
+                .addGroup(removerProductoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(bRemover, javax.swing.GroupLayout.DEFAULT_SIZE, 113, Short.MAX_VALUE)
+                    .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                .addGap(30, 30, 30)
+                .addComponent(inforRemover, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(59, 59, 59))
         );
 
         panelRegistar.addTab("Remover Producto", removerProducto);
@@ -725,7 +798,7 @@ public class ProgramaV17 extends javax.swing.JFrame {
                     .addGroup(buscarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                         .addComponent(subEncontrado, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jScrollPane4, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 568, Short.MAX_VALUE)))
-                .addContainerGap(24, Short.MAX_VALUE))
+                .addContainerGap(22, Short.MAX_VALUE))
         );
         buscarLayout.setVerticalGroup(
             buscarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -747,7 +820,7 @@ public class ProgramaV17 extends javax.swing.JFrame {
                     .addGroup(buscarLayout.createSequentialGroup()
                         .addGap(13, 13, 13)
                         .addComponent(informacion, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(54, Short.MAX_VALUE))
+                .addContainerGap(67, Short.MAX_VALUE))
         );
 
         panelVender.addTab("Agregar/Buscar Producto", buscar);
@@ -788,25 +861,30 @@ public class ProgramaV17 extends javax.swing.JFrame {
         informacioPaga.setLayout(informacioPagaLayout);
         informacioPagaLayout.setHorizontalGroup(
             informacioPagaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, informacioPagaLayout.createSequentialGroup()
-                .addContainerGap(63, Short.MAX_VALUE)
-                .addComponent(bPagar)
-                .addGap(38, 38, 38))
             .addGroup(informacioPagaLayout.createSequentialGroup()
-                .addContainerGap()
                 .addGroup(informacioPagaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(informacioPagaLayout.createSequentialGroup()
-                        .addComponent(subSubtotal)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(txtSubtotal, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(informacioPagaLayout.createSequentialGroup()
-                        .addComponent(subIva)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(txtIva, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(informacioPagaLayout.createSequentialGroup()
-                        .addComponent(subStotal)
+                        .addGap(66, 66, 66)
+                        .addComponent(bPagar)
                         .addGap(0, 0, Short.MAX_VALUE))
-                    .addComponent(txtTotal, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(informacioPagaLayout.createSequentialGroup()
+                        .addGap(29, 29, 29)
+                        .addGroup(informacioPagaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(subSubtotal)
+                            .addGroup(informacioPagaLayout.createSequentialGroup()
+                                .addGroup(informacioPagaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(subIva)
+                                    .addComponent(subStotal))
+                                .addGap(2, 2, 2)))
+                        .addGroup(informacioPagaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(informacioPagaLayout.createSequentialGroup()
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 40, Short.MAX_VALUE)
+                                .addComponent(txtSubtotal, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(informacioPagaLayout.createSequentialGroup()
+                                .addGap(40, 40, 40)
+                                .addGroup(informacioPagaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtTotal, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(txtIva, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))))
                 .addContainerGap())
         );
         informacioPagaLayout.setVerticalGroup(
@@ -821,12 +899,12 @@ public class ProgramaV17 extends javax.swing.JFrame {
                     .addComponent(subIva)
                     .addComponent(txtIva, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(32, 32, 32)
-                .addComponent(subStotal)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(txtTotal, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(33, 33, 33)
+                .addGroup(informacioPagaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(subStotal)
+                    .addComponent(txtTotal, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(27, 27, 27)
                 .addComponent(bPagar)
-                .addContainerGap())
+                .addContainerGap(40, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout comprarLayout = new javax.swing.GroupLayout(comprar);
@@ -1018,14 +1096,16 @@ public class ProgramaV17 extends javax.swing.JFrame {
 
     // Metodo para buscar productos con boton
     private void buscarProductoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buscarProductoActionPerformed
-       
        String buscar_producto = txtBuscar.getText();
        String [][] verTabla = new String [listaComes.size()][5];
        String [][] verTabla2 = new String [listaUtens.size()][5];
        String [][] verTabla3 = new String [listaOficina.size()][5];
        String [][] verTabla4 = new String [listaIndus.size()][5];
 
-       boolean noencontrado = false;
+       informacion.setText("");
+       
+       boolean noencontrado1 = false, noencontrado2 = false, 
+               noencontrado3 = false, noencontrado4 = false;
        int i = 0;
        int contador = 0;
        
@@ -1037,84 +1117,85 @@ public class ProgramaV17 extends javax.swing.JFrame {
                 verTabla[contador][2] = listaComes.get(i).getPeso_neto();
                 verTabla[contador][3] = String.valueOf( listaComes.get(i).getStock());
                 verTabla[contador][4] = String.valueOf(listaComes.get(i).getPrecio());
-                
+
                 contador++;
-                
+
                 MostrarTabla.setModel(new javax.swing.table.DefaultTableModel(
                 verTabla , new String [] { " Tipo de Producto", "Nombre", "Detalle", 
                     "Cantidad", "Precio "} ));
             } else {
-                noencontrado = true;
+                noencontrado1 = true;
             }
-            
+
             i++;
         }
-        
+
         contador = 0;
         i = 0;
         // Buscar en Utensilios
         for (Utensilio busqUtensilio: listaUtens) {
             if (busqUtensilio.getNombre().contains( toUpperCase( buscar_producto)) ) {
-                
+
                 verTabla2[contador][0] = "Utensilio";
                 verTabla2[contador][1] = listaUtens.get(i).getNombre();
                 verTabla2[contador][2] = listaUtens.get(i).getTipo_material();
                 verTabla2[contador][3] = String.valueOf( listaUtens.get(i).getStock());
                 verTabla2[contador][4] = String.valueOf(listaUtens.get(i).getPrecio());
-                
+
                 contador++;
-                
+
                 MostrarTabla.setModel(new javax.swing.table.DefaultTableModel(
                 verTabla2 , new String [] { " Tipo de Producto", "Nombre", "Detalle", "Cantidad", "Precio "} ));
             } else {
-                noencontrado = true;
+                noencontrado2 = true;
             }
             i++;
         }
         contador = 0;
         i = 0;
-       
+
         // Buscar en Oficina
         for (Oficina busqOficina: listaOficina) {
             if (busqOficina.getNombre().contains( toUpperCase( buscar_producto)) ) {
-                
+
                 verTabla3[contador][0] = "Oficina";
                 verTabla3[contador][1] = listaOficina.get(i).getNombre();
                 verTabla3[contador][2] = listaOficina.get(i).getMarca() ;
                 verTabla3[contador][3] = String.valueOf( listaOficina.get(i).getStock());
                 verTabla3[contador][4] = String.valueOf(listaOficina.get(i).getPrecio());
-                
+
                 contador++;
                 MostrarTabla.setModel(new javax.swing.table.DefaultTableModel(
                 verTabla3 , new String [] { " Tipo de Producto", "Nombre", "Detalle", "Cantidad", "Precio "} ));
             } else {
-                noencontrado = true;
+                noencontrado3 = true;
             }
             i++;
         }
         contador = 0;
         i = 0;
-       
+
         // Buscar en Industrial
         for (Industrial busqIndustrial: listaIndus) {
             if (busqIndustrial.getNombre().contains( toUpperCase( buscar_producto)) ) {
-                
+
                 verTabla4[contador][0] = "Oficina";
                 verTabla4[contador][1] = listaIndus.get(i).getNombre();
                 verTabla4[contador][2] = listaIndus.get(i).getTipo();
                 verTabla4[contador][3] = String.valueOf( listaIndus.get(i).getStock());
                 verTabla4[contador][4] = String.valueOf(listaIndus.get(i).getPrecio());
-                
-                
+
+
                 contador++;
                 MostrarTabla.setModel(new javax.swing.table.DefaultTableModel(
                 verTabla4 , new String [] { " Tipo de Producto", "Nombre", "Detalle", "Cantidad", "Precio "} ));
             } else {
-                noencontrado = true;
+                noencontrado4 = true;
             }
             i++;
         }
-        if (noencontrado == true) {
+        
+        if (noencontrado1 == true && noencontrado2 == true && noencontrado3 == true && noencontrado4 == true ) {
             informacion.setText("No existe el producto Ingresado");
         }
     }//GEN-LAST:event_buscarProductoActionPerformed
@@ -1135,7 +1216,6 @@ public class ProgramaV17 extends javax.swing.JFrame {
     }//GEN-LAST:event_guardarCActionPerformed
     // Boton final (Pagar)
     private void bPagarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bPagarActionPerformed
-        
         double subTotal = 0;
         double iva;
         double precioTotal;
@@ -1146,13 +1226,11 @@ public class ProgramaV17 extends javax.swing.JFrame {
         
         iva = subTotal * 0.12;
         precioTotal = subTotal * 1.12;
+        
         // Mostrar total a pagar
-        txtSubtotal.setText(String.valueOf( subTotal) );
-        txtIva.setText(String.valueOf( iva) );
-        txtTotal.setText(String.valueOf( precioTotal) );
-        
-        
-        //txtprueba.setText(String.valueOf(seleccion));
+        txtSubtotal.setText( String.format("%.2f", subTotal) );
+        txtIva.setText( String.format("%.2f", iva) );
+        txtTotal.setText( String.format("%.2f", precioTotal));
         
     }//GEN-LAST:event_bPagarActionPerformed
     // Seleccion de la tabla
@@ -1163,13 +1241,15 @@ public class ProgramaV17 extends javax.swing.JFrame {
     }//GEN-LAST:event_MostrarTablaMouseClicked
     // Boton (Comprar)
     private void ComprarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ComprarActionPerformed
-        
         tipo = (String.valueOf(MostrarTabla.getValueAt(seleccion,  0)));
         nombre = (String.valueOf(MostrarTabla.getValueAt(seleccion,  1)));
         detalle = (String.valueOf(MostrarTabla.getValueAt(seleccion,  2)));
+        
         String aux = (String.valueOf(MostrarTabla.getValueAt(seleccion, 3)));
         cantidad = Integer.parseInt(aux);
+        
         int cantidadIngresada = Integer.parseInt(txtcantidadcomprar.getText());
+        
         aux = (String.valueOf(MostrarTabla.getValueAt(seleccion, 4)));
         precio = Double.parseDouble(aux);
 
@@ -1178,8 +1258,7 @@ public class ProgramaV17 extends javax.swing.JFrame {
                     cantidadIngresada, precio);
 
             listaCompras.add(comprado);
-            //txtprueba.setText(detalle);
-
+            
             String [][] verTablaCompras = new String [listaCompras.size()][5];
 
             int contador = 0;
@@ -1195,20 +1274,137 @@ public class ProgramaV17 extends javax.swing.JFrame {
                     verTablaCompras[i][4] = String.valueOf
                                             (listaCompras.get(i).getPrecio());
                 }
-             }
+            }
+            
+            // Solucion visual compra en tabla
+            int newCantidad = cantidad - cantidadIngresada; 
+            MostrarTabla.setValueAt(newCantidad, seleccion ,3);
+
+            
+            // Solucion en Listas de compra en tabla
+            int j = 0;
+            for (Comestible busqComestible: listaComes) {
+                if (busqComestible.getNombre().contains( toUpperCase( nombre)) ) {
+                    busqComestible.setStock( listaComes.get(j).getStock()- cantidadIngresada  );
+                } j++;
+            }            
+            j = 0;
+            for (Utensilio busqUtensilio: listaUtens) {
+                if (busqUtensilio.getNombre().contains( toUpperCase( nombre)) ) {
+                    busqUtensilio.setStock( listaUtens.get(j).getStock()- cantidadIngresada  );
+                } j++;
+            }
+            j = 0;
+            for (Oficina busqOficina: listaOficina) {
+                if (busqOficina.getNombre().contains( toUpperCase( nombre)) ) {
+                    busqOficina.setStock( listaOficina.get(j).getStock()- cantidadIngresada  );
+                } j++;
+            }
+            j = 0;
+            for (Industrial busqIndustrial: listaIndus) {
+                if (busqIndustrial.getNombre().contains( toUpperCase( nombre)) ) {
+                    busqIndustrial.setStock( listaIndus.get(j).getStock()- cantidadIngresada  );
+                } j++;
+            }
+            
+            informacion.setText("");
+            
             MostrarTablaCompras.setModel(new javax.swing.table.DefaultTableModel(
                      verTablaCompras , new String [] { "Tipo de Producto", 
                          "Nombre", "Detalle", "Cantidad", "Precio "} ));
-            informacion.setText("Agregado al Carrito");
+            informacion.setText("Agregado al Carrito");          
         }
         else{
             informacion.setText("No existe stock del producto");
         }    
+        
     }//GEN-LAST:event_ComprarActionPerformed
+    private void MostrarListaRMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_MostrarListaRMouseClicked
+        index = MostrarListaR.getSelectedValue();
+        String [] remover = index.split(" ");
+        inforRemover.setText("¿Esta seguro que deseas eliminar " + 
+                String.valueOf(remover[0] +" de la base de datos?" ));
+        inforRemover.setVisible(true);
+        //bRemover.setVisible(true);
+    }//GEN-LAST:event_MostrarListaRMouseClicked
 
-    private void listaPesoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_listaPesoActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_listaPesoActionPerformed
+    private void bRemoverActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bRemoverActionPerformed
+        String [] remover = index.split(" ");
+                
+        int j = 0;
+        for (Comestible busqComestible: listaComes) {
+            if ( busqComestible.getNombre().equals( toUpperCase(   remover[0]    ) ) ) {
+                listaComes.remove(j);
+            } j++;
+        }
+        j = 0;
+        
+        for (Utensilio busqUtensilio: listaUtens) {
+            if (busqUtensilio.getNombre().contains( toUpperCase( remover[0] )) ) {
+                listaUtens.remove(j);
+            } j++;
+        }
+        j = 0;
+        for (Oficina busqOficina: listaOficina) {
+        if (busqOficina.getNombre().contains( toUpperCase( remover[0] )) ) {
+              listaOficina.remove(j);
+            } j++;
+        }
+        j = 0;
+        for (Industrial busqIndustrial: listaIndus) {
+            if (busqIndustrial.getNombre().contains( toUpperCase( remover[0] )) ) {
+                listaIndus.remove(j);
+            } j++;
+        }
+    }//GEN-LAST:event_bRemoverActionPerformed
+
+    private void buscarProducto1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buscarProducto1ActionPerformed
+        String remover = txtRemover.getText();
+        //inforRemover.setVisible(true);
+        bRemover.setVisible(true);
+        String [] verUtensilio = new String [listaUtens.size()+1+
+                listaComes.size()+listaOficina.size()+listaIndus.size()];
+        verUtensilio[0] = String.format("Nombre Detalles Cantidad Precio");
+        int contador = 1;
+        
+        for (Comestible objComestible: listaComes) {
+            if (objComestible.getNombre().contains( toUpperCase( remover)) ) {
+                verUtensilio[contador] = String.format("%s      %s      %s     %s$", 
+                        objComestible.getNombre(),objComestible.getPeso_neto() ,
+                        objComestible.getStock(), objComestible.getPrecio() );
+                contador++; 
+            } 
+        }
+        
+        for (Utensilio objUtensilio: listaUtens) {
+            if (objUtensilio.getNombre().contains( toUpperCase( remover)) ) {
+                verUtensilio[contador] = String.format("%s  %s  %s   %s$", 
+                        objUtensilio.getNombre(),objUtensilio.getTipo_material(),
+                        objUtensilio.getStock(), objUtensilio.getPrecio() );
+                contador++; 
+            }          
+        }
+                
+        for (Oficina objOficina: listaOficina) {
+            if (objOficina.getNombre().contains( toUpperCase( remover)) ) {
+                verUtensilio[contador] = String.format("%s    %s   %s  %s$", 
+                        objOficina.getNombre(),objOficina.getMarca() ,
+                        objOficina.getStock(), objOficina.getPrecio() );
+                contador++; 
+            }        
+        }
+        
+        for (Industrial objIndustrial: listaIndus) {
+            if (objIndustrial.getNombre().contains( toUpperCase( remover)) ) {
+                verUtensilio[contador] = String.format("%s    %s    %s    %s$", 
+                        objIndustrial.getNombre(),objIndustrial.getTipo() ,
+                        objIndustrial.getStock(), objIndustrial.getPrecio() );
+                contador++; 
+            }         
+        }
+        
+        MostrarListaR.setListData(verUtensilio);     
+    }//GEN-LAST:event_buscarProducto1ActionPerformed
 
     // Metodos observar en listas REGISTRO
     public void visualizarUtensilio(){
@@ -1220,7 +1416,6 @@ public class ProgramaV17 extends javax.swing.JFrame {
             verUtensilio[contador] = String.format("%s %s", objUtensilio.getNombre(),objUtensilio.getTipo_material() );
             contador++;         
         }
-        
         MostrarListaU.setListData(verUtensilio);
     }
     public void visualizarComestible(){
@@ -1281,15 +1476,12 @@ public class ProgramaV17 extends javax.swing.JFrame {
         txtNombreI.setText(""); 
         txtCantidadI.setText("");
         txtPrecioI.setText("");
-        
     }
     
     public static void main(String args[]) {
-        
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new ProgramaV17().setVisible(true);
-                
+                new ProgramaV20().setVisible(true);
             }
         });
     }
@@ -1299,16 +1491,19 @@ public class ProgramaV17 extends javax.swing.JFrame {
     private javax.swing.JList<String> MostrarListaC;
     private javax.swing.JList<String> MostrarListaI;
     private javax.swing.JList<String> MostrarListaO;
+    private javax.swing.JList<String> MostrarListaR;
     private javax.swing.JList<String> MostrarListaU;
     private javax.swing.JTable MostrarTabla;
     private javax.swing.JTable MostrarTablaCompras;
     private javax.swing.JButton bPagar;
     private javax.swing.JButton bRegistrar;
+    private javax.swing.JButton bRemover;
     private javax.swing.JButton bSalir;
     private javax.swing.JButton bVender;
     private javax.swing.JPanel base;
     private javax.swing.JPanel buscar;
     private javax.swing.JButton buscarProducto;
+    private javax.swing.JButton buscarProducto1;
     private javax.swing.JPanel comestibles;
     private javax.swing.JPanel comprar;
     private javax.swing.JButton guardarC;
@@ -1320,10 +1515,13 @@ public class ProgramaV17 extends javax.swing.JFrame {
     private javax.swing.JLabel icon3;
     private javax.swing.JLabel icon4;
     private javax.swing.JPanel industrial;
+    private javax.swing.JLabel inforRemover;
     private javax.swing.JPanel informacioPaga;
     private javax.swing.JLabel informacion;
     private javax.swing.JTextArea introduccion;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
@@ -1331,6 +1529,7 @@ public class ProgramaV17 extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane5;
     private javax.swing.JScrollPane jScrollPane6;
     private javax.swing.JScrollPane jScrollPane7;
+    private javax.swing.JScrollPane jScrollPane9;
     private javax.swing.JComboBox<String> listaPeso;
     private javax.swing.JComboBox<String> listaTipo;
     private javax.swing.JPanel menuObservar;
@@ -1385,6 +1584,7 @@ public class ProgramaV17 extends javax.swing.JFrame {
     private javax.swing.JTextField txtPrecioI;
     private javax.swing.JTextField txtPrecioO;
     private javax.swing.JTextField txtPrecioU;
+    private javax.swing.JTextField txtRemover;
     private javax.swing.JLabel txtSubtotal;
     private javax.swing.JLabel txtTotal;
     private javax.swing.JTextField txtcantidadcomprar;

@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6f7406f1-de61-4cec-8e46-78ffc793734d" name="Default Changelist" comment="Subida 15">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/poo2020/META-INF/poo2020.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../~$oyecto.docx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,18 +27,18 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/polimorfismo_automotriz" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -52,13 +54,13 @@
       <recent name="C:\Users\Sant Garcia\Documents\Orientada a Objetos\poo2020\src\deber_seleccion" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ListaEstudiante">
-    <configuration name="EjecutarEstudiante" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datos_tipo_objeto.EjecutarEstudiante" />
+  <component name="RunManager" selected="Application.EjecutarDatosPersona">
+    <configuration name="EjecutarDatosPersona" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arreglosdeberpoo.EjecutarDatosPersona" />
       <module name="poo2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datos_tipo_objeto.*" />
+          <option name="PATTERN" value="arreglosdeberpoo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjecutarDatosPersona" />
         <item itemvalue="Application.ListaEstudiante" />
         <item itemvalue="Application.ListaVehiculo" />
         <item itemvalue="Application.EjemploLista" />
         <item itemvalue="Application.Nombre" />
-        <item itemvalue="Application.EjecutarEstudiante" />
       </list>
     </recent_temporary>
   </component>
@@ -183,26 +185,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582300776167" />
-    <state width="1323" height="242" key="GridCell.Tab.0.bottom" timestamp="1583513217063">
+    <state width="1327" height="179" key="GridCell.Tab.0.bottom" timestamp="1587075751947">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="242" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583513217063" />
-    <state width="1323" height="242" key="GridCell.Tab.0.center" timestamp="1583513217063">
+    <state width="1327" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587075751947" />
+    <state width="1327" height="179" key="GridCell.Tab.0.center" timestamp="1587075751947">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="242" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583513217063" />
-    <state width="1323" height="242" key="GridCell.Tab.0.left" timestamp="1583513217063">
+    <state width="1327" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587075751947" />
+    <state width="1327" height="179" key="GridCell.Tab.0.left" timestamp="1587075751947">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="242" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583513217063" />
-    <state width="1323" height="242" key="GridCell.Tab.0.right" timestamp="1583513217063">
+    <state width="1327" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587075751947" />
+    <state width="1327" height="179" key="GridCell.Tab.0.right" timestamp="1587075751947">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="242" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583513217063" />
-    <state x="186" y="9" key="SettingsEditor" timestamp="1581820500902">
+    <state width="1327" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587075751947" />
+    <state x="161" y="0" key="SettingsEditor" timestamp="1587063174863">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581820500902" />
+    <state x="161" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587063174863" />
     <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1584629377729">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -211,6 +213,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="494" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1581818436535" />
+    <state x="118" y="0" key="new project wizard" timestamp="1587075836428">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="118" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1587075836428" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1584485242011">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.List;
 import static jdk.nashorn.internal.objects.NativeString.toUpperCase;
 
-public class ProgramaV17 extends javax.swing.JFrame {
+public class ProgramaV19 extends javax.swing.JFrame {
     // Variables de todos los objetos
     String nombre;
     int cantidad; 
@@ -24,7 +24,7 @@ public class ProgramaV17 extends javax.swing.JFrame {
     // Variables 
     int seleccion;
     // Programa 
-    public ProgramaV17() {
+    public ProgramaV19() {
         initComponents();
         // Al iniciar el programa
         menuObservarBase.setVisible(true);
@@ -138,7 +138,7 @@ public class ProgramaV17 extends javax.swing.JFrame {
         base.setBackground(new java.awt.Color(255, 255, 255));
 
         titulo.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        titulo.setForeground(new java.awt.Color(51, 51, 255));
+        titulo.setForeground(new java.awt.Color(102, 102, 102));
         titulo.setText("Punto De Venta de Productos");
 
         menuOpciones.setBackground(new java.awt.Color(255, 255, 255));
@@ -788,25 +788,30 @@ public class ProgramaV17 extends javax.swing.JFrame {
         informacioPaga.setLayout(informacioPagaLayout);
         informacioPagaLayout.setHorizontalGroup(
             informacioPagaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, informacioPagaLayout.createSequentialGroup()
-                .addContainerGap(63, Short.MAX_VALUE)
-                .addComponent(bPagar)
-                .addGap(38, 38, 38))
             .addGroup(informacioPagaLayout.createSequentialGroup()
-                .addContainerGap()
                 .addGroup(informacioPagaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(informacioPagaLayout.createSequentialGroup()
-                        .addComponent(subSubtotal)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(txtSubtotal, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(informacioPagaLayout.createSequentialGroup()
-                        .addComponent(subIva)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(txtIva, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(informacioPagaLayout.createSequentialGroup()
-                        .addComponent(subStotal)
+                        .addGap(66, 66, 66)
+                        .addComponent(bPagar)
                         .addGap(0, 0, Short.MAX_VALUE))
-                    .addComponent(txtTotal, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(informacioPagaLayout.createSequentialGroup()
+                        .addGap(29, 29, 29)
+                        .addGroup(informacioPagaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(subSubtotal)
+                            .addGroup(informacioPagaLayout.createSequentialGroup()
+                                .addGroup(informacioPagaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(subIva)
+                                    .addComponent(subStotal))
+                                .addGap(2, 2, 2)))
+                        .addGroup(informacioPagaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(informacioPagaLayout.createSequentialGroup()
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 40, Short.MAX_VALUE)
+                                .addComponent(txtSubtotal, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(informacioPagaLayout.createSequentialGroup()
+                                .addGap(40, 40, 40)
+                                .addGroup(informacioPagaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtTotal, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(txtIva, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))))
                 .addContainerGap())
         );
         informacioPagaLayout.setVerticalGroup(
@@ -821,12 +826,12 @@ public class ProgramaV17 extends javax.swing.JFrame {
                     .addComponent(subIva)
                     .addComponent(txtIva, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(32, 32, 32)
-                .addComponent(subStotal)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(txtTotal, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(33, 33, 33)
+                .addGroup(informacioPagaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(subStotal)
+                    .addComponent(txtTotal, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(27, 27, 27)
                 .addComponent(bPagar)
-                .addContainerGap())
+                .addContainerGap(40, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout comprarLayout = new javax.swing.GroupLayout(comprar);
@@ -1025,7 +1030,10 @@ public class ProgramaV17 extends javax.swing.JFrame {
        String [][] verTabla3 = new String [listaOficina.size()][5];
        String [][] verTabla4 = new String [listaIndus.size()][5];
 
-       boolean noencontrado = false;
+       informacion.setText("");
+       
+       boolean noencontrado1 = false, noencontrado2 = false, 
+               noencontrado3 = false, noencontrado4 = false;
        int i = 0;
        int contador = 0;
        
@@ -1037,84 +1045,85 @@ public class ProgramaV17 extends javax.swing.JFrame {
                 verTabla[contador][2] = listaComes.get(i).getPeso_neto();
                 verTabla[contador][3] = String.valueOf( listaComes.get(i).getStock());
                 verTabla[contador][4] = String.valueOf(listaComes.get(i).getPrecio());
-                
+
                 contador++;
-                
+
                 MostrarTabla.setModel(new javax.swing.table.DefaultTableModel(
                 verTabla , new String [] { " Tipo de Producto", "Nombre", "Detalle", 
                     "Cantidad", "Precio "} ));
             } else {
-                noencontrado = true;
+                noencontrado1 = true;
             }
-            
+
             i++;
         }
-        
+
         contador = 0;
         i = 0;
         // Buscar en Utensilios
         for (Utensilio busqUtensilio: listaUtens) {
             if (busqUtensilio.getNombre().contains( toUpperCase( buscar_producto)) ) {
-                
+
                 verTabla2[contador][0] = "Utensilio";
                 verTabla2[contador][1] = listaUtens.get(i).getNombre();
                 verTabla2[contador][2] = listaUtens.get(i).getTipo_material();
                 verTabla2[contador][3] = String.valueOf( listaUtens.get(i).getStock());
                 verTabla2[contador][4] = String.valueOf(listaUtens.get(i).getPrecio());
-                
+
                 contador++;
-                
+
                 MostrarTabla.setModel(new javax.swing.table.DefaultTableModel(
                 verTabla2 , new String [] { " Tipo de Producto", "Nombre", "Detalle", "Cantidad", "Precio "} ));
             } else {
-                noencontrado = true;
+                noencontrado2 = true;
             }
             i++;
         }
         contador = 0;
         i = 0;
-       
+
         // Buscar en Oficina
         for (Oficina busqOficina: listaOficina) {
             if (busqOficina.getNombre().contains( toUpperCase( buscar_producto)) ) {
-                
+
                 verTabla3[contador][0] = "Oficina";
                 verTabla3[contador][1] = listaOficina.get(i).getNombre();
                 verTabla3[contador][2] = listaOficina.get(i).getMarca() ;
                 verTabla3[contador][3] = String.valueOf( listaOficina.get(i).getStock());
                 verTabla3[contador][4] = String.valueOf(listaOficina.get(i).getPrecio());
-                
+
                 contador++;
                 MostrarTabla.setModel(new javax.swing.table.DefaultTableModel(
                 verTabla3 , new String [] { " Tipo de Producto", "Nombre", "Detalle", "Cantidad", "Precio "} ));
             } else {
-                noencontrado = true;
+                noencontrado3 = true;
             }
             i++;
         }
         contador = 0;
         i = 0;
-       
+
         // Buscar en Industrial
         for (Industrial busqIndustrial: listaIndus) {
             if (busqIndustrial.getNombre().contains( toUpperCase( buscar_producto)) ) {
-                
+
                 verTabla4[contador][0] = "Oficina";
                 verTabla4[contador][1] = listaIndus.get(i).getNombre();
                 verTabla4[contador][2] = listaIndus.get(i).getTipo();
                 verTabla4[contador][3] = String.valueOf( listaIndus.get(i).getStock());
                 verTabla4[contador][4] = String.valueOf(listaIndus.get(i).getPrecio());
-                
-                
+
+
                 contador++;
                 MostrarTabla.setModel(new javax.swing.table.DefaultTableModel(
                 verTabla4 , new String [] { " Tipo de Producto", "Nombre", "Detalle", "Cantidad", "Precio "} ));
             } else {
-                noencontrado = true;
+                noencontrado4 = true;
             }
             i++;
         }
-        if (noencontrado == true) {
+        
+        if (noencontrado1 == true && noencontrado2 == true && noencontrado3 == true && noencontrado4 == true ) {
             informacion.setText("No existe el producto Ingresado");
         }
     }//GEN-LAST:event_buscarProductoActionPerformed
@@ -1146,13 +1155,11 @@ public class ProgramaV17 extends javax.swing.JFrame {
         
         iva = subTotal * 0.12;
         precioTotal = subTotal * 1.12;
+        
         // Mostrar total a pagar
-        txtSubtotal.setText(String.valueOf( subTotal) );
-        txtIva.setText(String.valueOf( iva) );
-        txtTotal.setText(String.valueOf( precioTotal) );
-        
-        
-        //txtprueba.setText(String.valueOf(seleccion));
+        txtSubtotal.setText( String.format("%.2f", subTotal) );
+        txtIva.setText( String.format("%.2f", iva) );
+        txtTotal.setText( String.format("%.2f", precioTotal));
         
     }//GEN-LAST:event_bPagarActionPerformed
     // Seleccion de la tabla
@@ -1167,9 +1174,12 @@ public class ProgramaV17 extends javax.swing.JFrame {
         tipo = (String.valueOf(MostrarTabla.getValueAt(seleccion,  0)));
         nombre = (String.valueOf(MostrarTabla.getValueAt(seleccion,  1)));
         detalle = (String.valueOf(MostrarTabla.getValueAt(seleccion,  2)));
+        
         String aux = (String.valueOf(MostrarTabla.getValueAt(seleccion, 3)));
         cantidad = Integer.parseInt(aux);
+        
         int cantidadIngresada = Integer.parseInt(txtcantidadcomprar.getText());
+        
         aux = (String.valueOf(MostrarTabla.getValueAt(seleccion, 4)));
         precio = Double.parseDouble(aux);
 
@@ -1178,8 +1188,9 @@ public class ProgramaV17 extends javax.swing.JFrame {
                     cantidadIngresada, precio);
 
             listaCompras.add(comprado);
-            //txtprueba.setText(detalle);
-
+            
+            
+            
             String [][] verTablaCompras = new String [listaCompras.size()][5];
 
             int contador = 0;
@@ -1195,11 +1206,46 @@ public class ProgramaV17 extends javax.swing.JFrame {
                     verTablaCompras[i][4] = String.valueOf
                                             (listaCompras.get(i).getPrecio());
                 }
-             }
+            }
+            
+            // Solucion visual compra en tabla
+            int newCantidad = cantidad - cantidadIngresada; 
+            MostrarTabla.setValueAt(newCantidad, seleccion ,3);
+
+            
+            // Solucion en Listas de compra en tabla
+            int j = 0;
+            for (Comestible busqComestible: listaComes) {
+                if (busqComestible.getNombre().contains( toUpperCase( nombre)) ) {
+                  busqComestible.setStock( listaComes.get(j).getStock()- cantidadIngresada  );
+                } j++;
+            }
+            
+            j = 0;
+            for (Utensilio busqUtensilio: listaUtens) {
+                if (busqUtensilio.getNombre().contains( toUpperCase( nombre)) ) {
+                  busqUtensilio.setStock( listaUtens.get(j).getStock()- cantidadIngresada  );
+                } j++;
+            }
+            j = 0;
+            for (Oficina busqOficina: listaOficina) {
+            if (busqOficina.getNombre().contains( toUpperCase( nombre)) ) {
+                  busqOficina.setStock( listaOficina.get(j).getStock()- cantidadIngresada  );
+                } j++;
+            }
+            j = 0;
+            for (Industrial busqIndustrial: listaIndus) {
+                if (busqIndustrial.getNombre().contains( toUpperCase( nombre)) ) {
+                  busqIndustrial.setStock( listaIndus.get(j).getStock()- cantidadIngresada  );
+                } j++;
+            }
+            
+            informacion.setText("");
+            
             MostrarTablaCompras.setModel(new javax.swing.table.DefaultTableModel(
                      verTablaCompras , new String [] { "Tipo de Producto", 
                          "Nombre", "Detalle", "Cantidad", "Precio "} ));
-            informacion.setText("Agregado al Carrito");
+            informacion.setText("Agregado al Carrito");          
         }
         else{
             informacion.setText("No existe stock del producto");
@@ -1281,14 +1327,12 @@ public class ProgramaV17 extends javax.swing.JFrame {
         txtNombreI.setText(""); 
         txtCantidadI.setText("");
         txtPrecioI.setText("");
-        
     }
     
     public static void main(String args[]) {
-        
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new ProgramaV17().setVisible(true);
+                new ProgramaV19().setVisible(true);
                 
             }
         });
